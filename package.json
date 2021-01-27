@@ -1,0 +1,33 @@
+{
+  "name": "cachebust-es6-imports-cli",
+  "version": "0.0.7",
+  "description": "Cachebust es6 imports. Append a random string to an es6 import. The string is set via an environment variable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cachebust-es6-imports-cli": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^6.1.0",
+    "glob": "^7.1.6",
+    "transform-imports": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Darkle1/cachebust-es6-imports-cli.git"
+  },
+  "keywords": [
+    "es6",
+    "import",
+    "cachebust",
+    "cachebusting"
+  ],
+  "author": "CoopCoding",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.com/Darkle1/cachebust-es6-imports-cli/issues"
+  },
+  "homepage": "https://gitlab.com/Darkle1/cachebust-es6-imports-cli#readme"
+}
